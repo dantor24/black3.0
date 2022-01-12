@@ -76,3 +76,63 @@ header{
     transition: font-size 0.1s, font-weight 0.1s;
 
 }
+/* this part content the display for the feed  */
+#fill-blank{
+    height: 50px;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(26, 25, 25, 0.507);
+}
+img{
+    width: 100%;
+    filter: grayscale(60%);
+}
+.img-feed{
+    width: 38%;
+    margin-right:2%;
+    margin-top: 5px;
+}
+.wrapper-content{
+    width: 60%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.content-feed h1, .content-feed p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+.tag-feed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.tag-feed a{
+    color: white;
+    background-color: rgba(255, 217, 0, 0.651);
+    font-size: 0.5em;
+    border: 1px solid rgba(255, 217, 0, 0.651);
+    box-sizing: border-box;
+    padding: 3px;
+    margin-right: 10px;
+    border-radius: 3px;
+    transition:color 0.4s ease-in 0.2s,font-size 1s ease-in-out,
+    background-color 0.2;
+
+}
+
+.tag-feed a:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.452);
+    border: 1px solid rgba(255, 255, 255, 0.452);
+}
