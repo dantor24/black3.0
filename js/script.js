@@ -2,7 +2,9 @@ var menu  = {
     'home': './index.html',
     'post': './html/post.html',
     'channel': './html/channel.html' ,
+
 };
+
 // this function create the main menu
 const getMenu = () => {
     let navUl = document.getElementById("nav-ul");
@@ -19,13 +21,3 @@ const getMenu = () => {
 }
 
 getMenu();
-
-const hoverMenu = () => {
-    let menuItem = document.getElementsByClassName("link-menu-item")
-    for(let i =0; i<menuItem.length; i++){
-        console.log(menuItem.item(i).textContent);
-        
-    }
-}
-
-hoverMenu()
