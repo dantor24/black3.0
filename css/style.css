@@ -107,15 +107,28 @@ img{
     padding-right: 10px;
     box-sizing: border-box;
 }
+.column-top{
+    height: 70%;
+}
+.column-bottom{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 20%;
+}
 .content-feed h1, .content-feed p{
     color: rgb(255, 255, 255);
     text-align: justify;
+    /* border: 1px solid white; */
+}
+.content-feed h1{
+    text-transform: uppercase;
 }
 .tag-feed{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
+    /* border: 1px solid white; */
 }
 .tag-feed a{
     color: white;
@@ -156,6 +169,8 @@ img{
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     /* border: 1px solid white; */
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
 
 .ico-feed a{
@@ -168,4 +183,32 @@ img{
 .counter{
     font-size: 0.8em;
     
+}
+/* responsive part for the feed */
+@media screen and (max-width: 800px){
+    section{
+        flex-direction: column;
+        width: 70%;
+        
+    }
+    .img-feed{
+        width: 100%;
+        margin-right:0%;
+        margin-top: 0px; 
+        /* border: 1px solid white; */
+    }
+    .column-top,.column-bottom,.wrapper-content{
+        width: 100%;
+        padding-left: 5px;
+        margin-top: 0px;
+        /* border: 1px solid white; */
+    }
+    .content-feed h1, .content-feed p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .tag-feed{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
