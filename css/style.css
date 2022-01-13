@@ -151,3 +151,21 @@ img{
     /* background-color: rgba(255, 255, 255, 0.452);
     border: 1px solid rgba(255, 255, 255, 0.452); */
 }
+.ico-feed{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    /* border: 1px solid white; */
+}
+
+.ico-feed a{
+    color: gold;
+    font-size: 1em;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.counter{
+    font-size: 0.8em;
+    
+}
