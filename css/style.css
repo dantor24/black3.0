@@ -228,3 +228,28 @@ img{
         top:-5px;
     }
 }
+#btn-setting{
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    width: 40px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(65, 65, 64, 0.384);
+    border-radius: 50%;
+    border-color: transparent;
+    box-sizing: border-box;
+    border-style: none;
+    transition: color 0.2s;
+}
+#btn-setting:hover{
+    color: gold;
+}
+#btn-setting i{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+/* .section-feed{
+    filter: blur(60px);
+} */

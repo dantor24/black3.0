@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./dependencies/bundle/winbox.bundle.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./dependencies/fontawesome-free-5.15.4-web/css/all.min.css">
     <title>Black</title>
@@ -27,7 +28,10 @@
     <!-- create a blank space on the top of the page
     to fix a trouble with the position fixed of the header -->
     <div id="fill-blank"></div>
-    <section>
+    <button id="btn-setting" onclick="win() ,blurr()">
+        <i class="fas fa-cog"></i>
+    </button>
+    <section class="section-feed">
         <div class="img-feed">
             <img src="./picture/cable.jpg" alt="">
         </div>
@@ -70,7 +74,7 @@
 
         </div>
     </section>
-    <section>
+    <section class="section-feed">
         <div class="img-feed">
             <img src="./picture/networking.jpg" alt="">
         </div>
@@ -116,7 +120,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="section-feed">
         <div class="img-feed">
             <img src="./picture/typing.jpg" alt="">
         </div>
