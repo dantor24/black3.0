@@ -123,6 +123,14 @@ img{
 .content-feed h1{
     text-transform: uppercase;
 }
+.post-date{
+    color: rgba(219, 219, 218, 0.452);
+    font-style: italic;
+    font-size: 10px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -25px;
+}
 .tag-feed{
     display: flex;
     flex-direction: row;
@@ -178,7 +186,11 @@ img{
     font-size: 1em;
     text-decoration: none;
     margin-left: 10px;
+    transition: color 0.2s;
     
+}
+.ico-feed a:hover{
+    color: white;
 }
 .counter{
     font-size: 0.8em;
@@ -210,5 +222,9 @@ img{
     .tag-feed{
         margin-top: 5px;
         margin-bottom: 5px;
+        /* border: 1px solid red; */
+    }
+    .post-date{
+        top:-5px;
     }
 }
