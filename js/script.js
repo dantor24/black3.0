@@ -25,10 +25,13 @@ getMenu();
 const win = () => {
     
     var winbox = new WinBox("Settings", {
-        top: "55px",
+        top:-50,
         x: "center",
+        width:"80%",
+        height:"60%",
         background: "gold",
         modal:true,
+        url:"../html/settings.html",
         onclose: function(){
             blurr("0")
         }
