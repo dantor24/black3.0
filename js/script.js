@@ -29,14 +29,17 @@ const win = () => {
         x: "center",
         background: "gold",
         modal:true,
-        
+        onclose: function(){
+            blurr("0")
+        }
     });
+    blurr("10");
 }
 // blur the section feed
-const blurr = () =>{
+const blurr = (pixel) =>{
     let section = document.getElementsByClassName("section-feed")
+    pixel = "blur(" + pixel +"px)"
     for(let i=0; i<section.length; i++){
-        console.log(section[i]);
-        section[i].style.filter = "blur(10px)";
+        section[i].style.filter = pixel;
     }
 }
