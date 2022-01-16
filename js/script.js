@@ -29,7 +29,7 @@ const win = () => {
         x: "center",
         width:"80%",
         height:"60%",
-        background: "gold",
+        background: "black",
         modal:true,
         url:"../html/settings.html",
         onclose: function(){

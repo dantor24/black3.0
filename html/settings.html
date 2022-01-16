@@ -4,15 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dependencies/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="../css/settings.css">
     <title>Settings</title>
 </head>
 <body>
-    
-    <section>
-        <h1 id="title">Settings</h1>
-        <input type="file" name="file" id="file" accept="image*/">
+    <div id="head">
+        <div id="profil">
+            <img src="../picture/profil.jpg" alt="profil">
+            <span id="info-name">Aym Rick</span>
+        </div>
+        <div id="state">
+            <span class="counter">25.9K</span> 
+            <i class="fas fa-heart"></i>
+
+            <span class="counter">276</span> 
+            <i class="fas fa-plus"></i>
+              
+
+        </div>
         
+    </div>
+    <section>
+        <!-- <div id="frame-profil">
+            <input type="file" name="file" id="file" accept="image*/">
+        </div> -->
+        
+        <form action="" id="form-info">
+
+            <label for="name">name</label>
+            <input type="text" name="name" id="name" placeholder="Aym Rick"><br>
+
+            <label for="password">password</label>
+            <input type="password" name="password" id="password"><br>
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="aym24@gmail.com"><br>
+        </form>
     </section>
     
 </body>
