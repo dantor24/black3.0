@@ -46,3 +46,12 @@ const blurr = (pixel) =>{
         section[i].style.filter = pixel;
     }
 }
+// use blur filter when the menu hamb. is clicked
+const checkInput = () =>{
+    let input = document.getElementById("active");
+    if(input.checked){
+        blurr("0");
+    }else{
+        blurr("10")
+    }
+}
