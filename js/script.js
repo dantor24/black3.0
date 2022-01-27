@@ -31,7 +31,7 @@ const win = () => {
         height:"60%",
         background: "black",
         modal:true,
-        url:"../html/settings.html",
+        url:"./html/settings.html",
         onclose: function(){
             blurr("0")
         }
